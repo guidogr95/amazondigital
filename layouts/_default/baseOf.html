@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon" type="image/png">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL}}" />
+    <link rel="stylesheet" href="{{ "/css/flex-slider.css" | relURL}}" />
+    <link rel="stylesheet" href="{{ "/css/font-awesome.css" | relURL}}" />
+    <link rel="stylesheet" href="{{ "/css/styles.css" | relURL}}" />
+    <script src="/js/jquery-2.1.0.min.js"></script>
+    {{ $title := site.Title }}
+    {{ if not .IsHome }}
+      {{ $title = printf "%s | %s" .Title site.Title }}
+    {{ end }}
+    <title>
+      {{ $title }}
+    </title>
+  </head>
+  <body>
+      <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+            <div class="jumper">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div> 
+    <header>
+      <!-- some header -->
+      {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+      <section class="section" id="blog">
+        <div class="container">
+            <!-- ***** Section Title Start ***** -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="center-heading">
+                        <h2 class="section-title">Blog Digital</h2>
+                    </div>
+                </div>
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="center-text">
+                        <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
+            
+            <div class="myrow2" id="style-2">
+                {{ range .Pages }}
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog-post-thumb">
+                        <div class="img">
+                            <img src="{{.Image}}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>
+                                    <a href="{{.URL}}">{{.Title}}</a>
+                            </h3>
+                            <div class="text">
+                                    <p>{{.Description}}</p>
+                            </div>
+                            <a href="{{.URL}}" class="main-button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+        </div>
+    </section>
+    <!-- ***** Blog End ***** -->
+    {{ block "contact" . }}{{ partial "contact.html" .}}{{ end }}
+    </main>
+    <footer>
+      <!-- some footer -->
+      {{ block "footer" . }}{{ partial "site-footer.html" .}}{{ end }}
+    </footer>
+    <!-- jQuery -->
+    <script src="/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="/js/scrollreveal.min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/imgfix.min.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="/js/custom.js"></script>
+  </body>
+</html>
