@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://amazondigitalecuador.com"
 languageCode = "en-us"
 title = "Amazon Digital Ecuador"
 disableKinds = ["taxonomy", "taxonomyTerm"]
