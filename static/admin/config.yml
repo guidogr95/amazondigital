@@ -13,7 +13,7 @@ collections:
   - name: "blog"
     label: "blog"
     folder: "content"
-    create: "true"
+    create: true
     slug: "{{year}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
