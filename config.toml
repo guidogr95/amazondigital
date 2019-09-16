@@ -1,5 +1,4 @@
 baseURL = "https://amazondigitalecuador.com"
 languageCode = "en-us"
 title = "Amazon Digital Ecuador"
-publishDir = "public"
 disableKinds = ["taxonomy", "taxonomyTerm"]
