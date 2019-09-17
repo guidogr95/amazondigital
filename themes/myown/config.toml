@@ -1,5 +1,4 @@
 baseURL = "https://amazondigital.netlify.com"
 languageCode = "en-us"
 title = "Amazon Digital Ecuador"
-theme = "myown"
 disableKinds = ["taxonomy", "taxonomyTerm"]
