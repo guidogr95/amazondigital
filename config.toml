@@ -1,4 +1,4 @@
-baseURL = "https://amazondigitalecuador.com/"
+baseURL = "https://amazondigital.netlify.com/"
 languageCode = "en-us"
 title = "Amazon Digital Ecuador"
 disableKinds = ["taxonomy", "taxonomyTerm"]
