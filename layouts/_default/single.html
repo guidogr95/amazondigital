@@ -1,6 +1,9 @@
 {{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<header>
+    <!-- some header -->
+    {{ block "header" . }}{{ partial "blog-header.html" .}}{{ end }}
+  </header>
+<h1 style="text-align: center;">{{ .Title }}</h1>
+<span style="text-align: center;">{{ .Content }}</span>
 
 {{ end }}

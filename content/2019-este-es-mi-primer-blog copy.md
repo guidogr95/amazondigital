@@ -1,5 +1,5 @@
 ---
-title: Este es mi primer blog
+title: Este es mi segundo blog
 date: 2019-09-20T17:05:31.728Z
 description: Amazon Digital crea paginas web completamente autoadministrables
 image: /images/blog-item-01.png

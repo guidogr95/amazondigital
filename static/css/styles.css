@@ -1779,3 +1779,10 @@ preloader
     margin-left: 21px;
   }
 }
+/* Blog items*/
+.blog-item {
+  height: 100%;
+  width: 360px;
+  margin: 0 10px 0 10px;
+}
+
