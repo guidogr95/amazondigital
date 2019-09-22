@@ -443,7 +443,7 @@ No gastes dinero en vano, d&eacute;janos administrar tu campa&ntilde;a de anunci
 
 <div id="prices1" class="row justify-content-center">
     <!-- ***** Pricing Item Start ***** -->
-    <div class="" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+    <div class="mycol1" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
         <div class="pricing-item">
             <div class="pricing-header">
                 <h3 class="pricing-title">Paquete mensual</h3>
@@ -493,7 +493,7 @@ No gastes dinero en vano, d&eacute;janos administrar tu campa&ntilde;a de anunci
 
 <div id="prices1" class="row justify-content-center">
     <!-- ***** Pricing Item Start ***** -->
-    <div class="" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+    <div class="mycol1" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
         <div class="pricing-item">
             <div class="pricing-header">
                 <h3 class="pricing-title">Paquete mensual</h3>
