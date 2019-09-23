@@ -1,11 +1,13 @@
 ---
-title: second try at bloggin
+title: 10 Tendencias de Diseño Web Más Populares del 2019
 date: 2019-09-20T17:41:41.984Z
-description: this has to work
-image: /images/uploads/81500637.jpg
+description: >-
+  Diez tendencias de diseño que puede comenzar a ver más en la web mientras
+  nuestros calendarios digitales marquen el 2019.
+image: /images/uploads/black-and-white-books-connection-251225.jpg
 thumbnail: /images/uploads/breaking-the-grid-web-design-9.jpg
 ---
-A continuación se presentan las diez tendencias de diseño que puede comenzar a ver más en la web mientras nuestros calendarios digitales marquen el 2019.
+A continuación se presentan las diez tendencias de diseño que puede comenzar a ver más en la web mientras nuestros calendarios digitales marquen el 2019.
 
 ## 1. Rejilla rota y diseño asimétrico
 
