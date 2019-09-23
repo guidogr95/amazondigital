@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147433925-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-147433925-2');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="Amazon Digital" />
+	<meta property="og:title" content="Páginas Web Profesionales | Amazon Digital Ecuador | Diseño y Publicidad Web" />
+	<meta property="og:description" content="Amazon Digital | Diseño Web Profesional a Bajos Precios - Mantenimiento de Páginas Web - Facebook Ads - Inglés y Español - Google SEO - Quito Ecuador Tlf: +593996705431"/>
+	<meta name="description" content="Amazon Digital | Diseño Web Profesional a Bajos Precios - Mantenimiento de Páginas Web - Facebook Ads - Inglés y Español - Google SEO - Quito Ecuador Tlf: +593996705431"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
     <link href="images/favicon.png" rel="shortcut icon" type="image/png">
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL}}" />
@@ -16,7 +30,7 @@
       {{ $title = printf "%s | %s" .Title site.Title }}
     {{ end }}
     <title>
-      {{ $title }}
+        Páginas Web Profesionales | Amazon Digital Ecuador | Diseño y Publicidad Web
     </title>
     <!-- include the widget -->
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -645,5 +659,16 @@
     
     <!-- Global Init -->
     <script src="/js/custom.js"></script>
+    <script type="aplication/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Store",
+            "image": "/images/logo.png",
+            "name": "Amazon Digital",
+            "email": "info@amazondigitalecuador.com",
+            "telephone": "(+593) 996-705-431",
+            "url": "Https://amazondigitalecuador.com"
+        }
+        </script>
   </body>
 </html>
