@@ -39,3 +39,20 @@ La experimentación con nostalgia y estilos de diseño retro puede crear una bue
 
 ## 4. Mayor elevación y tratamiento de imágenes
 
+Las imágenes siempre han presentado oportunidades de diseño únicas, especialmente en la web. Poner imágenes en círculos, hacerlas en blanco y negro, agregar una sombra paralela detrás de ellas: todas estas son técnicas que los diseñadores han estado utilizando para mejorar y / o llamar la atención sobre las imágenes en los sitios web (y casi cualquier otro tipo de diseño).
+
+![elevación de imagen](/images/uploads/kobu-e1543919046315.png "elevacion de imagen")
+
+El sitio web de <a href="https://kobu.agency">Kobu</a> presenta imágenes que tienen los temas recortados en lugar de una imagen estándar, lo que permite que el diseño fluya entre los "recortes" de los miembros de su equipo.
+
+Llevar el tratamiento de la imagen un paso más allá puede llamar la atención sobre una imagen o incluso desviar la atención de una imagen. Donde la mayoría de los sitios web presentan una imagen de estilo héroe muy grande que abarca todo el ancho de su sitio web, ocupando una gran cantidad de altura y sin cambiar mucho la imagen, cambiar la forma en que se presentan las imágenes es una tendencia de diseño que creo comenzará a recoger más tracción en 2019.
+
+## 5. Monocromática y ausencia de color
+
+Tener millones de colores a tu alcance es genial y todo, pero ¿qué pasa si te limitas a un solo color o no lo haces? Si se hace bien, ese tipo de restricción de diseño puede ayudar a mejorar un diseño y hacerlo más memorable.
+
+![monocromatica y ausencia de color](/images/uploads/5d6e1e964f960771386304.jpg "monocromatica y ausencia de color")
+
+El sitio de <a href="http://masoudrostami.com/">Masoud Rostami</a> se apega a una paleta de colores extremadamente simple al nada más usar blanco y negro.
+
+Limitarse a un solo color puede ayudar a solidificar su marca mientras agrega restricciones en términos de flexibilidad de diseño. Dado que la mayoría de los sitios web tienen de dos a cinco colores que se usan en todas partes, el uso de un solo color puede hacer que se destaque y sea más memorable para el espectador de un sitio web.
