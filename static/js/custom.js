@@ -15,6 +15,7 @@
 		$(".menu-trigger").on('click', function() {	
 			$(this).toggleClass('active');
 			$('.header-area .nav').slideToggle(200);
+			$('.header-area2 .nav').slideToggle(200);
 		});
 	}
 
@@ -29,6 +30,7 @@
 				if(width < 991) {
 					$('.menu-trigger').removeClass('active');
 					$('.header-area .nav').slideUp(200);	
+					$('.header-area2 .nav').slideUp(200);	
 				}				
 				$('html,body').animate({
 					scrollTop: (target.offset().top) - 130

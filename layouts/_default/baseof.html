@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="{{ "/css/flex-slider.css" | relURL}}" />
     <link rel="stylesheet" href="{{ "/css/font-awesome.css" | relURL}}" />
     <link rel="stylesheet" href="{{ "/css/styles.css" | relURL}}" />
+    <meta property="og:url"           content="{{.URL}}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="{{ with .Params.title }}{{ . }}{{ end }}" />
+    <meta property="og:description"   content="{{ with .Params.description }}{{ . }}{{ end }}" />
+    <meta property="og:image"         content="{{ with .Params.image }}{{ . }}{{ end }}" />
     <script src="/js/jquery-2.1.0.min.js"></script>
     {{ $title := site.Title }}
     {{ if not .IsHome }}
@@ -22,6 +27,8 @@
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=2682403408439424&autoLogAppEvents=1"></script>
       <!-- ***** Preloader Start ***** -->
     <div id="preloader">
             <div class="jumper">
@@ -32,7 +39,7 @@
         </div> 
     <header>
       <!-- some header -->
-      {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+      {{ block "header" . }}{{ partial "blog-header.html" .}}{{ end }}
     </header>
     <main>
       {{ block "main" . }}{{ end }}
@@ -73,6 +80,13 @@
                 {{ end }}
         </div>
     </section>
+    <section class="fb-section">
+      <div class="fb-share-button" 
+        data-href="{{.URL}}" 
+        data-layout="button_count">
+      </div>
+      <div class="fb-comments" data-href="https://amazondigitalecuador.com" data-width="100%" data-numposts="7"></div>
+    </section>
     <!-- ***** Blog End ***** -->
     {{ block "contact" . }}{{ partial "contact.html" .}}{{ end }}
     </main>
@@ -80,6 +94,15 @@
       <!-- some footer -->
       {{ block "footer" . }}{{ partial "site-footer.html" .}}{{ end }}
     </footer>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!-- jQuery -->
     <script src="/js/jquery-2.1.0.min.js"></script>
 
