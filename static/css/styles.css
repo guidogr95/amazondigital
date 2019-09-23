@@ -176,7 +176,7 @@ body {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 
 #style-2::-webkit-scrollbar
@@ -444,15 +444,24 @@ button.main-button:hover {
   background-color: #8bd8bd;
 }
 
+/* Home Page Blog items*/
+.blog-item {
+  height: 100%;
+  width: 360px;
+  margin: 0 10px 0 10px;
+}
+
 /*blog post text container*/
 .blog-cover {
-  max-width: 80%;
-  height: 550px;
+  max-width: 100%;
+  height: 350px;
   margin: 30px auto;
-  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 100vmax rgba(36, 54, 101, 0.4);
 }
 
 .blog-body {
+  margin: 40px 0;
   width: 100%;
 }
 
@@ -466,11 +475,12 @@ button.main-button:hover {
 }
 
 .post-container span img {
+  max-width: 100%;
   max-height: 350px;
 }
 
 .post-container p {
-  margin: 20px 0;
+  margin: 30px 5px;
 }
 /*Blog Post fb comment */
 .fb-section {
@@ -1884,10 +1894,5 @@ preloader
     margin-left: 21px;
   }
 }
-/* Blog items*/
-.blog-item {
-  height: 100%;
-  width: 360px;
-  margin: 0 10px 0 10px;
-}
+
 
