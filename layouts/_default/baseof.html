@@ -14,8 +14,7 @@
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="{{ with .Params.title }}{{ . }}{{ end }}" />
     <meta property="og:description"   content="{{ with .Params.description }}{{ . }}{{ end }}" />
-    <meta property="og:image"         content="{{ with .Params.image }}{{ . }}{{ end }}" />
-    <script src="/js/jquery-2.1.0.min.js"></script>
+    <meta property="og:image"         content="{{ with .Params.thumbnail }}{{ . }}{{ end }}" />
     {{ $title := site.Title }}
     {{ if not .IsHome }}
       {{ $title = printf "%s | %s" .Title site.Title }}

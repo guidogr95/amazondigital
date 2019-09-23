@@ -166,7 +166,6 @@ body {
   flex-direction: row;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  max-height: 466px;
   margin-right: -15px;
   margin-left: -15px;
   overflow-x: scroll;
@@ -446,6 +445,13 @@ button.main-button:hover {
 }
 
 /*blog post text container*/
+.blog-cover {
+  max-width: 80%;
+  height: 550px;
+  margin: 30px auto;
+  background-size: cover;
+}
+
 .blog-body {
   width: 100%;
 }
