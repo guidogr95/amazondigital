@@ -37,3 +37,5 @@ El diseño del sitio web de <a href="https://statamic.com">Statamic</a> presenta
 
 La experimentación con nostalgia y estilos de diseño retro puede crear una buena yuxtaposición entre el diseño actual y el actual. Lo que lo hace aún más interesante es que podemos esperar ver más estilos de diseño retro que reflejen períodos de tiempo antes de que los sitios web sean fácilmente accesibles para las masas; haciéndolo sentir "nuevo" para muchas personas.
 
+## 4. Mayor elevación y tratamiento de imágenes
+
