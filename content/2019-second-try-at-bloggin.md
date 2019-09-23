@@ -39,3 +39,40 @@ La experimentación con nostalgia y estilos de diseño retro puede crear una bue
 
 ## 4. Mayor elevación y tratamiento de imágenes
 
+Las imágenes siempre han presentado oportunidades de diseño únicas, especialmente en la web. Poner imágenes en círculos, hacerlas en blanco y negro, agregar una sombra paralela detrás de ellas: todas estas son técnicas que los diseñadores han estado utilizando para mejorar y / o llamar la atención sobre las imágenes en los sitios web (y casi cualquier otro tipo de diseño).
+
+![elevación de imagen](/images/uploads/kobu-e1543919046315.png "elevacion de imagen")
+
+El sitio web de <a href="https://kobu.agency">Kobu</a> presenta imágenes que tienen los temas recortados en lugar de una imagen estándar, lo que permite que el diseño fluya entre los "recortes" de los miembros de su equipo.
+
+Llevar el tratamiento de la imagen un paso más allá puede llamar la atención sobre una imagen o incluso desviar la atención de una imagen. Donde la mayoría de los sitios web presentan una imagen de estilo héroe muy grande que abarca todo el ancho de su sitio web, ocupando una gran cantidad de altura y sin cambiar mucho la imagen, cambiar la forma en que se presentan las imágenes es una tendencia de diseño que creo comenzará a recoger más tracción en 2019.
+
+## 5. Monocromática y ausencia de color
+
+Tener millones de colores a tu alcance es genial y todo, pero ¿qué pasa si te limitas a un solo color o no lo haces? Si se hace bien, ese tipo de restricción de diseño puede ayudar a mejorar un diseño y hacerlo más memorable.
+
+![monocromatica y ausencia de color](/images/uploads/5d6e1e964f960771386304.jpg "monocromatica y ausencia de color")
+
+El sitio de <a href="http://masoudrostami.com/">Masoud Rostami</a> se apega a una paleta de colores extremadamente simple al nada más usar blanco y negro.
+
+Limitarse a un solo color puede ayudar a solidificar su marca mientras agrega restricciones en términos de flexibilidad de diseño. Dado que la mayoría de los sitios web tienen de dos a cinco colores que se usan en todas partes, el uso de un solo color puede hacer que se destaque y sea más memorable para el espectador de un sitio web.
+
+## 6. Elementos de diseño sobrepuestos
+
+Al alinearse estrechamente con los diseños de cuadrícula rotos y la asimetría, hacer que los elementos se superpongan entre sí puede atraer interés visual a tipos específicos de contenido en una página. Esto puede traer un elemento inesperado a medida que nos acostumbramos a que los elementos de una página web tengan su propio espacio y se separen de los elementos que los rodean (generalmente no se tocan entre sí).  
+
+![elementos sobrepuestos](/images/uploads/5d5aec3784da3137396785.png "elementos sobrepuestos")
+
+La página web de <a href="https://theaxistrivedi.in">Lotus Ocean</a> hace uso de diferentes imágenes y texto sobrepuestos entre sí y con animaciones que presentan la impresión de movimiento natural.
+
+Cuando se hace con una consideración cuidadosa, la tendencia de elementos superpuestos en una página puede ayudar a mejorar la estética general del sitio. Esto también puede ser bastante difícil de ejecutar, dado el mundo móvil primero en el que vivimos, ya que la superposición de elementos si no se hace bien puede causar confusión y frustración a los usuarios cuando los elementos se superponen de manera incorrecta.
+
+## 7. Encabezados y páginas de inicio reimaginados
+
+Como se indicó anteriormente, la mayoría de las áreas de héroe o encabezados (formalmente conocidas como "encima del pliegue") presentan una imagen grande que abarca la mayor parte de la ventana gráfica, a menudo con algo de texto en la parte superior para enfocar la atención del espectador. Y en los últimos años, no ha habido mucha experimentación con esta área de un sitio web (posiblemente, el área más importante).
+
+![encabezado reimaginado](/images/uploads/5d1c621d9310c496090912.png "encabezado reimaginado")
+
+La presentación con animaciones ingeniosas y svg's de la página de <a href="https://www.r4ms3s.cz">Petr Urbánek</a> te dejará con la boca abierta.
+
+Si bien algunos sitios web han comenzado a ampliar los límites de lo que es posible con sus áreas de héroe / encabezado en sus sitios web, a medida que nos alejamos de los típicos héroes de tipo ancho de imagen de ancho completo con texto, espero comenzar a ver más y más experimentación por parte de diseñadores web sobre lo que es posible en esta área.
