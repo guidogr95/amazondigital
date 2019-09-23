@@ -464,6 +464,11 @@ button.main-button:hover {
 .post-container h1:first-of-type {
   text-align: center;
 }
+
+.post-container span img {
+  max-height: 350px;
+}
+
 .post-container p {
   margin: 20px 0;
 }
