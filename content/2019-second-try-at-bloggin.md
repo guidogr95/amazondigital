@@ -76,3 +76,41 @@ Como se indicó anteriormente, la mayoría de las áreas de héroe o encabezados
 La presentación con animaciones ingeniosas y svg's de la página de <a href="https://www.r4ms3s.cz">Petr Urbánek</a> te dejará con la boca abierta.
 
 Si bien algunos sitios web han comenzado a ampliar los límites de lo que es posible con sus áreas de héroe / encabezado en sus sitios web, a medida que nos alejamos de los típicos héroes de tipo ancho de imagen de ancho completo con texto, espero comenzar a ver más y más experimentación por parte de diseñadores web sobre lo que es posible en esta área.
+
+## 8. Navegación grande y experimental
+
+Parece que cada año hay una tendencia a hacer con la navegación en un sitio web. Probablemente porque es uno de los elementos más difíciles de diseñar para la página. Tan esencial para la forma en que usamos la web, pero un dolor para mantenerlo funcional pero estéticamente atractivo.
+
+![navegacion pantalla completa](/images/uploads/sin-título.jpg "navegacion pantalla completa")
+
+El sitio web de <a href="https://www.nbh.co">PLY</a> muestra una navegación bastante grande, lo que lo convierte en el centro de su sitio web en lugar de una parte más pequeña de su sitio.
+
+En 2019, es probable que la tendencia continúe experimentando más experimentación con las navegaciones. Pero en lugar de solo cambiar algunas cosas, como la ubicación en la página, el tamaño de fuente o incluso el diseño en sí, es probable que la experimentación supere los límites de lo que es posible en 2019, como hacer que la navegación sea la parte principal del sitio web o haciéndolo muy grande y un punto focal.
+
+## 9. Más espacio blanco del necesario
+
+El uso eficaz del espacio en blanco es una herramienta de diseño utilizada por los diseñadores durante décadas. Sin embargo, lo que puede no ser tan común es la cantidad de espacio en blanco utilizado o incluso hacer que el espacio en blanco sea el punto focal en lugar del contenido en sí.
+
+![](/images/uploads/daniel-boddam-e1543926084336.png)
+
+El sitio web de <a href="https://www.danielboddam.com/">Daniel Boddam</a> utiliza un espacio en blanco adicional en el encabezado de su sitio, lo que atrae la atención al espacio que, de otro modo, a menudo está lleno de contenido.
+
+El uso de espacios en blanco adicionales de esta manera contrasta la razón por la cual usualmente usamos espacios en blanco: agregue márgenes o espacios para que nuestros ojos descansen. Agregar espacio en blanco adicional ahora ayuda a moverlo para que sea un punto focal o una parte más notable de la estética del diseño. Al elegir agregar espacio en blanco adicional en áreas que no necesariamente lo necesitan, se convierte en una parte importante del diseño y más notado por los visitantes.
+
+## 10. Desafíando los límites de la tipografía
+
+Si bien experimentar con la tipografía siempre es algo que se espera de los diseñadores, es un poco más difícil superar los límites de la tipografía en la web de lo que está impreso. A medida que la codificación se vuelve más sofisticada, la experimentación con la tipografía en la web se ha vuelto un poco más fácil con el tiempo.
+
+![Tipografía interactiva](/images/uploads/kurppa-e1543926473351.png "Tipografía interactiva")
+
+
+
+El sitio web de <a href="https://kurppahosk.com/">Kurppa hosk</a> experimenta con la tipografía agregando animación e interacción con el usuario. El texto explota y forma un círculo alrededor del cursor del usuario.
+
+Experimentar y empujar los límites de la tipografía podría incluir cortar o restar deliberadamente partes de letras y palabras (confiando en un espacio negativo para completar el resto de las letras), fotografía dentro de la tipografía, escribir en una línea o forma diagonal, animar la tipografía, etc.
+
+## Conclusiones finales
+
+Estamos en un mundo de diseño plano posterior, y parece que el diseño web adopta un enfoque más experimental de lo que hemos visto en años anteriores. Prácticamente ningún elemento en la página web está a salvo de la experimentación a medida que avanzamos en 2019.
+
+Al agregar espacio en blanco adicional, hacer que las navegaciones sean el punto focal de los sitios web y experimentar con la tipografía para obtener inspiración de tiempos pasados, 2019 busca presentar sitios web que experimenten con su estética de diseño sin dejar nada intacto.
