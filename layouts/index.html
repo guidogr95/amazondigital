@@ -23,8 +23,9 @@
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL}}" />
     <link rel="stylesheet" href="{{ "/css/flex-slider.css" | relURL}}" />
     <link rel="stylesheet" href="{{ "/css/font-awesome.css" | relURL}}" />
+    <link rel="stylesheet" href="{{ "/css/swiper.min.css" | relURL}}" />
     <link rel="stylesheet" href="{{ "/css/styles.css" | relURL}}" />
-    <script src="/js/jquery-2.1.0.min.js"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
     {{ $title := site.Title }}
     {{ if not .IsHome }}
       {{ $title = printf "%s | %s" .Title site.Title }}
@@ -615,26 +616,28 @@
                 </div>
             </div>
             <!-- ***** Section Title End ***** -->
-            
-            <div class="myrow2" id="style-2">
-                {{ range .Pages }}
-                <div class="blog-item">
-                    <div class="blog-post-thumb">
-                        <div class="img">
-                            <img src="{{ with .Params.thumbnail }}{{ . }}{{ end }}" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3>
-                                    <a href="{{.URL}}">{{.Title}}</a>
-                            </h3>
-                            <div class="text">
-                                    <p>{{.Description}}</p>
+            <div class="swiper-container" id="style-2">
+                <div class="swiper-wrapper">
+                    {{ range .Pages }}
+                    <div class="swiper-slide">
+                        <div class="blog-post-thumb">
+                            <div class="img">
+                                <img src="{{ with .Params.thumbnail }}{{ . }}{{ end }}" alt="">
                             </div>
-                            <a href="{{.URL}}" class="main-button">Read More</a>
+                            <div class="blog-content">
+                                <h3>
+                                        <a href="{{.URL}}">{{.Title}}</a>
+                                </h3>
+                                <div class="text">
+                                        <p>{{.Description}}</p>
+                                </div>
+                                <a href="{{.URL}}" class="main-button">Read More</a>
+                            </div>
                         </div>
                     </div>
+                    {{ end }}
                 </div>
-                {{ end }}
+                <div class="swiper-pagination"></div>
         </div>
     </section>
     <!-- ***** Blog End ***** -->
@@ -645,9 +648,10 @@
       {{ block "footer" . }}{{ partial "site-footer.html" .}}{{ end }}
     </footer>
     <!-- jQuery -->
-    <script src="/js/jquery-2.1.0.min.js"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
 
     <!-- Bootstrap -->
+    <script src="/js/swiper.min.js"></script>
     <script src="/js/popper.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 
@@ -656,6 +660,26 @@
     <script src="/js/waypoints.min.js"></script>
     <script src="/js/jquery.counterup.min.js"></script>
     <script src="/js/imgfix.min.js"></script> 
+    {{/*  swiper  */}}
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : false,
+            },
+            pagination: {
+            el: '.swiper-pagination',
+            },
+        });
+
+    </script>
     
     <!-- Global Init -->
     <script src="/js/custom.js"></script>

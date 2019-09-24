@@ -160,7 +160,7 @@ body {
   justify-content: center;
 }
 
-.myrow2 {
+.myrow2 .reel {
   display: -ms-flexbox;
   display: flex;
   flex-direction: row;
@@ -170,7 +170,7 @@ body {
   margin-left: -15px;
   overflow-x: scroll;
 }
-
+/*
 #style-2::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -200,7 +200,22 @@ body {
   box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: rgba(36, 54, 101, 0.9);
 }
+*/
+/*reel*/
 
+.swiper-container {
+  width: 100%
+}
+
+.swiper-slide {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 90px;
+  height: 500px;
+}
+
+
+/******/
 .hr {
   bottom: 0px;
   width: 100%;
@@ -1608,6 +1623,7 @@ blog
 
 .blog-post-thumb .img {
   overflow: hidden;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
   border-radius: 20px;
   position: relative;
   height: 200px;
