@@ -49,20 +49,41 @@
       {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
 
     <main>
-        <div class="welcome-area" id="welcome">
-
-            <div class="header-text">
-                       <div class="container">
-                           <div class="row">
-                               <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-                                   <h1>P&aacute;ginas web <strong style="color: #8bd8bd">profesionales</strong> a precios <strong style="color: #8bd8bd">accesibles</strong> en Ingl&eacute;s y Espa&ntilde;ol en todo el <strong>Ecuador</strong></h1>
-                                   <p>Amazon Digital se especializa en crear p&aacute;ginas web est&aacute;ticas hechas a medida tomando en cuenta las necesidades y fortalezas de sus clientes.<br>
-                                   <strong style="color: #8bd8bd">Aprovecha nuestros precios bajos y oferta de administraci&oacute;n de Facebook Ads gratis por apertura</strong></p>
-                                   <a href="#features" class="main-button-slider">Descubrir m&aacute;s</a>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
+        <div class="welcome-area s1" id="welcome">
+            <div class="swiper-wrapper">
+                    <div class="header-text swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                                    <h1>P&aacute;ginas web <strong style="color: #8bd8bd">profesionales</strong> a precios <strong style="color: #8bd8bd">accesibles</strong> en Ingl&eacute;s y Espa&ntilde;ol en todo el <strong>Ecuador</strong></h1>
+                                    <p>Amazon Digital se especializa en crear p&aacute;ginas web est&aacute;ticas hechas a medida tomando en cuenta las necesidades y fortalezas de sus clientes.<br>
+                                    <strong style="color: #8bd8bd">Aprovecha nuestros precios bajos y oferta de administraci&oacute;n de Facebook Ads gratis por apertura</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-text swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                    <h1>HAZ DE TU WEB <strong style="color: #8bd8bd; font-size: 1.5em;">UNA EXPERIENCIA MEMORABLE</strong> <strong style="background: #243665;">RENUEVA TU PÁGINA WEB</strong></h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-text swiper-slide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                                        <h1>IDEAS <span style="color:#ff589e;">CREATIVAS</span> <br><strong style="color: #8bd8bd; font-size: 1.6em;">DISEÑO INTELIGENTE</strong> <strong style="background: #243665;">RESULTADOS TANGIBLES</strong></h1>
+                                        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
                    <!-- ***** Header Text End ***** -->
                </div>
                <!-- ***** Welcome Area End ***** -->
@@ -677,6 +698,14 @@
             pagination: {
             el: '.swiper-pagination',
             },
+        });
+        var swiper2 = new Swiper('.s1', {
+            spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
         });
 
     </script>

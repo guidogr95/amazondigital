@@ -209,12 +209,16 @@ body {
 
 .swiper-slide {
   width: 300px;
-  background: rgba(255, 255, 255, 0.2);
   border-radius: 90px;
   height: 550px;
 }
 
-
+.fa-thumbs-o-up,
+.fa-paint-brush {
+  font-size: 5em;
+  margin: 5px 0;
+  color: #fff;
+}
 /******/
 .hr {
   bottom: 0px;
@@ -899,6 +903,8 @@ welcome
   overflow: hidden;
   position: relative;
   display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-items: center;
   justify-content: center;
   background-image: url(../images/banner-bg.jpg);
@@ -906,9 +912,13 @@ welcome
   background-position: center center;
   background-size: cover; 
   height: 100vh;
+  width: 100%;
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
   box-shadow: 1px 3px 4px rgba(0 ,0 ,0 ,0.3)
+}
+.welcome-area > div {
+  align-items: center;
 }
 @media (max-width: 991px) {
   .welcome-area {
@@ -918,11 +928,12 @@ welcome
 }
 
 .welcome-area .header-text {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-55%);
   text-align: center;
   width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
 }
 
 .welcome-area .header-text h1 {
