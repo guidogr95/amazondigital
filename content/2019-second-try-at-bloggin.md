@@ -6,7 +6,6 @@ description: >-
   nuestros calendarios digitales marquen el 2019.
 image: /images/uploads/design-development-electronics-326424.jpg
 thumbnail: /images/uploads/black-and-white-books-connection-251225.jpg
-aliases: []
 ---
 A continuación se presentan las diez tendencias de diseño que puede comenzar a ver más en la web mientras nuestros calendarios digitales marquen el 2019.
 
