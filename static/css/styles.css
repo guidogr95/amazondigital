@@ -468,7 +468,7 @@ button.main-button:hover {
 
 @media (max-width: 400px) {
   .blog-root {
-    background-size: 400%;
+    background-size: contain;
   }
 }
 
