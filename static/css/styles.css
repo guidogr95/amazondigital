@@ -1680,6 +1680,25 @@ blog
   font-size: 0.9em;
 }
 
+.publish-date::before,
+.publish-date-cover::before {
+  content: '\f017';
+  font-family: fontAwesome;
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.publish-date-cover {
+  color: #fff;
+  text-align: left;
+  margin: 10px 0 0 0;
+  bottom: 5px;
+  left: 10px;
+  padding: 0 5px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 0.9em;
+}
+
 .blog-post-thumb .post-footer span {
   float: left;
   height: 30px;
