@@ -1,35 +1,61 @@
-<IfModule mod_headers.c>
-Header set Connection keep-alive
 
-# Cache-control headers
-    # 2 HOURS
-    #<filesMatch "*">
-        Header set Cache-Control "max-age=7200, must-revalidate"
-    #</filesMatch>
 
-    # 480 weeks - 290304000
-    # 2 WEEKS
-    <filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|swf)$">
-        Header set Cache-Control "max-age=1209600, public"
-    </filesMatch>
+RewriteEngine on
 
-    # 1 DAY
-    <filesMatch "\.(css)$">
-        Header set Cache-Control "max-age=86400, public, must-revalidate"
-        #Header set Cache-Control "max-age=0, public, must-revalidate"
-    </filesMatch>
+FileETag none
 
-    # 2 DAYS
-    <filesMatch "\.(xml|txt)$">
-        Header set Cache-Control "max-age=172800, public, must-revalidate"
-    </filesMatch>
 
-    # 2 HOURS
-    <filesMatch "\.(html|htm)$">
-        Header set Cache-Control "max-age=7200, must-revalidate"
-    </filesMatch>
 
-    <FilesMatch "\.(gif|jpg|png|ico|css|js|pdf|txt)$">
-        Header append Cache-Control "public"
-    </FilesMatch>
+<IfModule mod_expires.c>
+
+  ExpiresActive On
+
+
+
+  # Images
+
+  ExpiresByType image/jpeg "access plus 1 week"
+
+  ExpiresByType image/gif "access plus 1 week"
+
+  ExpiresByType image/png "access plus 1 week"
+
+  ExpiresByType image/webp "access plus 1 week"
+
+  ExpiresByType image/svg+xml "access plus 1 week"
+
+  ExpiresByType image/x-icon "access plus 1 week"
+
+
+
+  # Video
+
+  ExpiresByType video/mp4 "access plus 1 year"
+
+  ExpiresByType video/mpeg "access plus 1 year"
+
+
+
+  # CSS, JavaScript
+
+  ExpiresByType text/css "access plus 1 month"
+
+  ExpiresByType text/javascript "access plus 1 month"
+
+  ExpiresByType application/javascript "access plus 1 month"
+
+
+
+  # Others
+
+  ExpiresByType application/pdf "access plus 1 month"
+
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
+
+	ExpiresDefault "access plus 2 days"
+
 </IfModule>
+
+
+
+
