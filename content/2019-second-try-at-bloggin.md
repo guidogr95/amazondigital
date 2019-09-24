@@ -6,6 +6,7 @@ description: >-
   nuestros calendarios digitales marquen el 2019.
 image: /images/uploads/design-development-electronics-326424.jpg
 thumbnail: /images/uploads/black-and-white-books-connection-251225.jpg
+aliases: []
 ---
 A continuación se presentan las diez tendencias de diseño que puede comenzar a ver más en la web mientras nuestros calendarios digitales marquen el 2019.
 
@@ -79,7 +80,8 @@ Si bien algunos sitios web han comenzado a ampliar los límites de lo que es pos
 
 ## 8. Navegación grande y experimental
 
-Parece que cada año hay una tendencia a hacer con la navegación en un sitio web. Probablemente porque es uno de los elementos más difíciles de diseñar para la página. Tan esencial para la forma en que usamos la web, pero un dolor para mantenerlo funcional pero estéticamente atractivo.
+
+Parece que cada año hay una tendencia a hacer con la navegación en un sitio web. Probablemente porque es uno de los elementos más difíciles de diseñar para la página. Tan esencial para la forma en que usamos la web, pero un dolor para mantenerlo funcional pero estéticamente atractivo.
 
 ![navegacion pantalla completa](/images/uploads/sin-título.jpg "navegacion pantalla completa")
 
