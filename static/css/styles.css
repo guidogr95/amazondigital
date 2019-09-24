@@ -466,6 +466,12 @@ button.main-button:hover {
   background-position: center;
 }
 
+@media (max-width: 400px) {
+  .blog-root {
+    background-size: 400%;
+  }
+}
+
 .blog-body {
   padding: 20px 0;
   max-width: 1080px;
