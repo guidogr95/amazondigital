@@ -468,12 +468,32 @@ button.main-button:hover {
 
 .blog-body {
   padding: 20px 0;
-  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: -ms-flexbox;
+  margin: 0 auto;
+}
+
+.blog-body .fb-page {
+  margin: 20px 10px;
+  width: 300px;
+  height: 700px;
 }
 
 .post-container {
-  max-width: 1080px;
-  margin: 0 auto;
+  width: 750px;
+}
+
+@media (max-width: 1086px) {
+  .blog-body .fb-page {
+    width: 340px;
+  }
+  .fb-pagecontainer {
+    height: 400px;
+    overflow: hidden;
+  }
 }
 
 .post-container a {
