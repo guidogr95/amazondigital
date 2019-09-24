@@ -211,7 +211,7 @@ body {
   width: 300px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 90px;
-  height: 500px;
+  height: 550px;
 }
 
 
@@ -421,21 +421,24 @@ a.main-button-slider:hover {
 }
 
 a.main-button {
-  font-size: 13px;
+  font-size: 14px;
   border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #243665;
+  padding: 8px 20px;
+  border: 1px solid #243665;
   text-transform: uppercase;
-  color: #fff;
+  color: #243665;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0,0.5);
 }
 
 a.main-button:hover {
   background-color: #8261ee;
+  color: #fff;
+  border: 1px transparent #243665;
 }
 
 button.main-button {
@@ -1655,14 +1658,26 @@ blog
 }
 
 .blog-post-thumb .text {
-  height: 75px;
+  height: 120px;
   overflow: hidden;
   font-weight: 400;
   font-size: 13px;
   color: #777;
   letter-spacing: 0.26px;
   line-height: 26px;
-  margin-bottom: 15px;
+}
+
+.publish-date {
+  color: #fff;
+  text-align: left;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 5px;
+  border-radius: 20px;
+  font-size: 0.9em;
 }
 
 .blog-post-thumb .post-footer span {

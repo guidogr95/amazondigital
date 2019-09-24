@@ -2,7 +2,7 @@
 <section class="blog-body">
   <div class="post-container">
     <h1>{{ .Title }}</h1>
-    <div style="background: url('{{ with .Params.image }}{{ . }}{{ end }}');background-size: cover;" class="blog-cover"></div>
+    <div style="background: url('{{ with .Params.image }}{{ . }}{{ end }}');background-size: cover;background-position: center;" class="blog-cover"></div>
     <span>{{ .Content }}</span>
   </div>
   <div class="fb-pagecontainer">
