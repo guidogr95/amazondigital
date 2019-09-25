@@ -208,9 +208,22 @@ body {
 }
 
 .swiper-slide {
-  width: 300px;
+  width: 33.3333%;
   border-radius: 90px;
   height: 550px;
+  padding: 0 10px;
+}
+
+@media (max-width: 767px) {
+  .swiper-slide {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .swiper-slide {
+    width: 100%;
+  }
 }
 
 .fa-thumbs-o-up,
@@ -1669,7 +1682,7 @@ blog
 }
 
 .blog-post-thumb .text {
-  height: 120px;
+  height: 85px;
   overflow: hidden;
   font-weight: 400;
   font-size: 13px;
